@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Message board</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id='container'>
+      <h1 id='title'>[Your Message Board Topic Goes Here]</h1>
+      <div id='message-board' class="trans-box">
+        <h2>Message Board</h2>
+        Message Count: <span id='message-count'>3</span>
+        <ul>
+          <li class='message-box'><span class='name'>[Example Name]: </span>[Example Message]</li>
+          <li class='message-box'><span class='name'>[Example Name]: </span>[Example Message]</li>
+          <li class='message-box'><span class='name'>[Example Name]: </span>[Example Message]</li>
+        </ul>
+      </div>
+      <div id='input-form' class="trans-box">
+        <div id='message-title'>Have something to say?</div>
+        <br>
+        <form id='message-form'>
+          <input class="center" id="input-name" type="text" placeholder='Name'><br>
+          <textarea class="center" id="input-message" rows="10" placeholder='Enter your message...'></textarea><br>
+          <input id='submit-button' type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background: url(images/paradise.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+}
+#form-box {
+  margin: 0 auto;
+  padding: 10px;
+  width: 40%;
+  background-color: rgba(81, 64, 64, .2);
+  box-shadow: .2px .2px .2px .2px rgba(81, 64, 64, .8);
+  border-radius: 10px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+}
+.field {
+  margin: 20px;
+  width: 90%;
+}
+.button input {
+  font-family: 'Amatic SC', cursive;
+  margin-left: 70%;
+  background-color: rgba(87, 103, 127, .95);
+  padding: 10px;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+  border: 1px solid #2f3947;
+  border-radius: 3px;
+}
+.button input:hover {
+  background-color: #2f3947;
+}
